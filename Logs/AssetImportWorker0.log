@@ -15,11 +15,11 @@ C:/Users/Brandon/Desktop/cs555/CS-555-Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52470
+52474
 Successfully changed project path to: C:/Users/Brandon/Desktop/cs555/CS-555-Project
 C:/Users/Brandon/Desktop/cs555/CS-555-Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.20f1 (41c4e627c95f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
@@ -35,73 +35,73 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.109740 seconds.
+Registered in 0.001632 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 38.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.017 seconds
+- Completed reload, in  0.805 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4017ms)
-		BeginReloadAssembly (2043ms)
+	ReloadAssembly (805ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (567ms)
-			LoadAssemblies (2041ms)
+		EndReloadAssembly (330ms)
+			LoadAssemblies (40ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (342ms)
+			SetupTypeCache (116ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
 			SetupLoadedEditorAssemblies (136ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
+				RefreshPlugins (39ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (63ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.190099 seconds.
+Registered in 0.002433 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.66 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.150 seconds
+- Completed reload, in  0.868 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3154ms)
+	ReloadAssembly (869ms)
 		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (2978ms)
-			LoadAssemblies (1784ms)
+		EndReloadAssembly (699ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (651ms)
+			SetupTypeCache (228ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (397ms)
+			SetupLoadedEditorAssemblies (267ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
+				RefreshPlugins (40ms)
 				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (289ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,15 +109,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2094 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 105.6 MB.
+System memory in use before: 105.7 MB.
 System memory in use after: 105.7 MB.
 
 Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2553.
-Total: 2.669000 ms (FindLiveObjects: 0.184100 ms CreateObjectMapping: 0.042300 ms MarkObjects: 2.380300 ms  DeleteObjects: 0.061400 ms)
+Total: 2.954000 ms (FindLiveObjects: 0.196200 ms CreateObjectMapping: 0.043100 ms MarkObjects: 2.636600 ms  DeleteObjects: 0.077400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,8 +131,2614 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/MainPage.unity
-  artifactKey: Guid(f9a6cfa1972d4bf4cb2983355d2fff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainPage.unity using Guid(f9a6cfa1972d4bf4cb2983355d2fff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '298795843db68d30e1a63d21283f1a35') in 0.014802 seconds 
-  Import took 0.018303 seconds .
+  path: Assets/Font/PartyConfettiRegular-eZOn3.ttf
+  artifactKey: Guid(b8a2b802624ac3a45ad13d02355fb2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/PartyConfettiRegular-eZOn3.ttf using Guid(b8a2b802624ac3a45ad13d02355fb2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf4dcadaf87de21037ccf703a47dfcd') in 0.119065 seconds 
+  Import took 0.122253 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Underwater Game Kit/preview.png
+  artifactKey: Guid(51f68272ad18ee8449c352fdfc5243d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/preview.png using Guid(51f68272ad18ee8449c352fdfc5243d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f8b77920562b41f0b2bc9f55264c6f') in 0.042791 seconds 
+  Import took 0.045387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Font/ScholarlyAmbitionRegular-PKdwB.ttf
+  artifactKey: Guid(76dfec4c53342fe45b20b394810d416b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font/ScholarlyAmbitionRegular-PKdwB.ttf using Guid(76dfec4c53342fe45b20b394810d416b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b969e903403c8bba93ca988e3e5d0f') in 0.011346 seconds 
+  Import took 0.014155 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2600.
+Total: 3.280500 ms (FindLiveObjects: 0.213200 ms CreateObjectMapping: 0.042500 ms MarkObjects: 3.009000 ms  DeleteObjects: 0.015000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 44.497594 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(08edab5c07c0b8f4cb3ea2c462a33878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(08edab5c07c0b8f4cb3ea2c462a33878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5feace771452e1667255c9295d8bb6') in 0.005513 seconds 
+  Import took 0.008769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.028023 seconds.
+  path: Assets/Scenes/New Scene.unity
+  artifactKey: Guid(d310c863760cd7744922d642c3aba6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/New Scene.unity using Guid(d310c863760cd7744922d642c3aba6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a3f45dcf725584e894a7b2c4ca026b') in 0.007474 seconds 
+  Import took 0.010922 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 488.274893 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/sea turtle/up-fin-1.png
+  artifactKey: Guid(8e9ea13656dbd7144a45fb590d4b6a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/sea turtle/up-fin-1.png using Guid(8e9ea13656dbd7144a45fb590d4b6a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97a7e84daae85af6296a3cc8d94dbfe') in 0.023570 seconds 
+  Import took 0.027993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/sea turtle/up-fin-2.png
+  artifactKey: Guid(89b4b85d601ed5043a1909c24071253a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/sea turtle/up-fin-2.png using Guid(89b4b85d601ed5043a1909c24071253a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5ee5ba4eef9bcb2c8f24dc771bf5f8') in 0.018825 seconds 
+  Import took 0.022313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/sea turtle/up-fin-2.png
+  artifactKey: Guid(99d17f2a463b90e49a733beda8d61084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/sea turtle/up-fin-2.png using Guid(99d17f2a463b90e49a733beda8d61084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49bef520b9d6256d3f4fa980bafff5a') in 0.018371 seconds 
+  Import took 0.021564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/sea turtle/up-fin-1.png
+  artifactKey: Guid(71d4eee3408189c45b4dd0a21dae750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/sea turtle/up-fin-1.png using Guid(71d4eee3408189c45b4dd0a21dae750f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9ba91792dc4576f937dd3624e8624d') in 0.018476 seconds 
+  Import took 0.021518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/sea turtle/up-fin-2.png
+  artifactKey: Guid(5cf2641e66ec3464bb5f1b38ba0d7272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/sea turtle/up-fin-2.png using Guid(5cf2641e66ec3464bb5f1b38ba0d7272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73bbf87d482a8f03656d3156aea5d489') in 0.016668 seconds 
+  Import took 0.020296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.789887 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/shrimp/tail.png
+  artifactKey: Guid(302e0c5af3ff1f24da198b296ecae582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/shrimp/tail.png using Guid(302e0c5af3ff1f24da198b296ecae582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc063ac694ec47562aa7aa434f7507a') in 0.018362 seconds 
+  Import took 0.022200 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/sea turtle/up-fin-1.png
+  artifactKey: Guid(3f31b2829c39d494391a82d009b508f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/sea turtle/up-fin-1.png using Guid(3f31b2829c39d494391a82d009b508f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be03a0ec12c84f077237debaa52a79b0') in 0.016979 seconds 
+  Import took 0.020223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/shrimp/tail.png
+  artifactKey: Guid(8068bec9a1adef4448cde4af84746799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/shrimp/tail.png using Guid(8068bec9a1adef4448cde4af84746799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5496a04a0bb949506d9035fd6d7ba73f') in 0.018242 seconds 
+  Import took 0.021506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/starfish.png
+  artifactKey: Guid(7a3b8ee35959bbe49808cdfe684e1285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/starfish.png using Guid(7a3b8ee35959bbe49808cdfe684e1285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7aac19c0fb5c7e2a3c506b1245fe6c0') in 0.022043 seconds 
+  Import took 0.025314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/shrimp/tail.png
+  artifactKey: Guid(eb1c8919429b9f748bc8d2c31f294b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/shrimp/tail.png using Guid(eb1c8919429b9f748bc8d2c31f294b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b6363e4af5d4cb8dfad81b055eda52') in 0.015943 seconds 
+  Import took 0.019465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/starfish.png
+  artifactKey: Guid(9036ec2aa9ec43840a59696cc691c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/starfish.png using Guid(9036ec2aa9ec43840a59696cc691c577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceff5336f4d146c59c9a08c2bd44ea51') in 0.017373 seconds 
+  Import took 0.020552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.177767 seconds.
+  path: Assets/Underwater Game Kit/Props/300dpi/ship.png
+  artifactKey: Guid(fa549dd1ad68c244481ed9f559612b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/300dpi/ship.png using Guid(fa549dd1ad68c244481ed9f559612b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbf687b2bbe0a145e2bae5632c750c2') in 0.023643 seconds 
+  Import took 0.027105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/sea turtle/shell.png
+  artifactKey: Guid(11a1b09a01ce959429b5ba079836ac34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/sea turtle/shell.png using Guid(11a1b09a01ce959429b5ba079836ac34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd300caa0fb8969ff2247a8ed86dfda67') in 0.020288 seconds 
+  Import took 0.023374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/sea turtle/shell.png
+  artifactKey: Guid(c647d1bc45eaed74fb2bc4246f942af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/sea turtle/shell.png using Guid(c647d1bc45eaed74fb2bc4246f942af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8abe0e8f1594da8cda4e3cd52624b76') in 0.020177 seconds 
+  Import took 0.023354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Underwater Game Kit/Props/150dpi/seashell-3.png
+  artifactKey: Guid(f323e1df6c8ffc64a95ffd10eeb3fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/150dpi/seashell-3.png using Guid(f323e1df6c8ffc64a95ffd10eeb3fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f2ebc8f57fbdb87c1c6592daf5c9f5') in 0.021191 seconds 
+  Import took 0.024197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/sea turtle/shell.png
+  artifactKey: Guid(16cee3de11db1f24098f7959f3766d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/sea turtle/shell.png using Guid(16cee3de11db1f24098f7959f3766d22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8acf95e75d37e40ecc818f341e7aae') in 0.015937 seconds 
+  Import took 0.019058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/crab/shadow.png
+  artifactKey: Guid(5b7372375b659714398a5c2bd25a20ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/crab/shadow.png using Guid(5b7372375b659714398a5c2bd25a20ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e15aefb5b097997cb98ceb3bdd4328') in 0.019286 seconds 
+  Import took 0.022117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Underwater Game Kit/Props/96dpi/ship.png
+  artifactKey: Guid(677a83f920772924d85dff13cb491704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/96dpi/ship.png using Guid(677a83f920772924d85dff13cb491704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07649a268fcfa39426a0cdc70430bb90') in 0.019385 seconds 
+  Import took 0.022824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Underwater Game Kit/Props/300dpi/seashell-4.png
+  artifactKey: Guid(b067fd47d76ff884e82615e358b42122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/300dpi/seashell-4.png using Guid(b067fd47d76ff884e82615e358b42122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64aa7cbe495f61f0c95794e162663bbc') in 0.020956 seconds 
+  Import took 0.024348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Underwater Game Kit/Props/150dpi/ship.png
+  artifactKey: Guid(c8626fa19e57da04e959c8cb27fb1605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/150dpi/ship.png using Guid(c8626fa19e57da04e959c8cb27fb1605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de513161734d3738d18be23a12fcd5d8') in 0.021450 seconds 
+  Import took 0.024898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/crab/shadow.png
+  artifactKey: Guid(6ddb0396bdc554643836a4f06003f40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/crab/shadow.png using Guid(6ddb0396bdc554643836a4f06003f40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c7d41ea34b9337b398cc0e02cc19c2') in 0.016297 seconds 
+  Import took 0.019388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Underwater Game Kit/Props/150dpi/seashell-4.png
+  artifactKey: Guid(5541b116b2ff0a04d83cfcdef46f3a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/150dpi/seashell-4.png using Guid(5541b116b2ff0a04d83cfcdef46f3a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22ce873a69b6893c33e66ca561e2b539') in 0.018292 seconds 
+  Import took 0.021541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Underwater Game Kit/Props/96dpi/seashell-3.png
+  artifactKey: Guid(2f1006076ab8bbf4492905fcbb8812fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/96dpi/seashell-3.png using Guid(2f1006076ab8bbf4492905fcbb8812fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c22289eaba8c69c619fc616efd6a99') in 0.017690 seconds 
+  Import took 0.020954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Underwater Game Kit/Props/300dpi/seashell-3.png
+  artifactKey: Guid(8094dcd8d7f28a04f809c265997a27bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/300dpi/seashell-3.png using Guid(8094dcd8d7f28a04f809c265997a27bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5ec6d37d7899e661825c11aa1d9bff') in 0.021914 seconds 
+  Import took 0.024877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Underwater Game Kit/Props/300dpi/seashell-2.png
+  artifactKey: Guid(d91f7903b32790846a116099f9428807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/300dpi/seashell-2.png using Guid(d91f7903b32790846a116099f9428807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6980973f9ec1aaece95ee68a64a2484d') in 0.019945 seconds 
+  Import took 0.023158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Underwater Game Kit/Props/preview.png
+  artifactKey: Guid(62286ad91d5142448ab334a333be4381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/preview.png using Guid(62286ad91d5142448ab334a333be4381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771916fb5dee94e33998874f89d523b2') in 0.028183 seconds 
+  Import took 0.031527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Underwater Game Kit/Environment/preview.png
+  artifactKey: Guid(f9338182f2021754181a98086dc458c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/preview.png using Guid(f9338182f2021754181a98086dc458c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220d7de275ee1c288a9e475dc61789c3') in 0.018180 seconds 
+  Import took 0.020981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Underwater Game Kit/Props/150dpi/seashell-2.png
+  artifactKey: Guid(385d16191a1504b41973d6eb614d21db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/150dpi/seashell-2.png using Guid(385d16191a1504b41973d6eb614d21db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf7f49cd4187e11158bba0d92dc25d3') in 0.019312 seconds 
+  Import took 0.022305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Underwater Game Kit/Creatures/preview.png
+  artifactKey: Guid(ee51f7ca611771f4b8b8adbcc5b725be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/preview.png using Guid(ee51f7ca611771f4b8b8adbcc5b725be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ca4ab190a2f0819f499ae8294dd4bf') in 0.032869 seconds 
+  Import took 0.035693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Underwater Game Kit/Props/300dpi/seashell-1.png
+  artifactKey: Guid(87746230819476440a8b9d091507d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/300dpi/seashell-1.png using Guid(87746230819476440a8b9d091507d960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0f6cdc5ee43bf858c8e6a6e5d84367') in 0.020882 seconds 
+  Import took 0.023812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Underwater Game Kit/Props/96dpi/seashell-1.png
+  artifactKey: Guid(a947f258015818f46a4162e4b86e97be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/96dpi/seashell-1.png using Guid(a947f258015818f46a4162e4b86e97be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9c9ed7436c78c6d27ec6fd68002b6c') in 0.017317 seconds 
+  Import took 0.020460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Underwater Game Kit/Props/150dpi/seashell-1.png
+  artifactKey: Guid(edac3251973893e4c88a4e0952eb3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/150dpi/seashell-1.png using Guid(edac3251973893e4c88a4e0952eb3683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d223825089d65f6b6d0389843bf6c45') in 0.018533 seconds 
+  Import took 0.021875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/starfish.png
+  artifactKey: Guid(bd29fff529127614eb5aab2587baee5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/starfish.png using Guid(bd29fff529127614eb5aab2587baee5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccfd1e54a3eb96b6c28ff2d06dd1cd1') in 0.024510 seconds 
+  Import took 0.027613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/crab/shadow.png
+  artifactKey: Guid(519266d47731b1b4f9d13e90676a69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/crab/shadow.png using Guid(519266d47731b1b4f9d13e90676a69a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cfd8b7b8cbe544c8a14897843c81b3') in 0.019164 seconds 
+  Import took 0.022697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Underwater Game Kit/Props/300dpi/paper-boat.png
+  artifactKey: Guid(856e86020c05917458555051566c63e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/300dpi/paper-boat.png using Guid(856e86020c05917458555051566c63e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dedbee3faa328edd4889eb9a8c30870') in 0.020304 seconds 
+  Import took 0.023026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Underwater Game Kit/Props/96dpi/seashell-4.png
+  artifactKey: Guid(ed2f0813d041b4140b5234304e0fd3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/96dpi/seashell-4.png using Guid(ed2f0813d041b4140b5234304e0fd3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35765fd74d626b68b10f90a19a045ffd') in 0.019158 seconds 
+  Import took 0.022353 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Underwater Game Kit/Props/96dpi/seashell-2.png
+  artifactKey: Guid(2a4a4c91003ff1a4baff314d19ab33ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/96dpi/seashell-2.png using Guid(2a4a4c91003ff1a4baff314d19ab33ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '812c94537522d0b168710e2db3d3e7e0') in 0.016244 seconds 
+  Import took 0.019224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036362 seconds.
+  path: Assets/Underwater Game Kit/Props/96dpi/paper-boat.png
+  artifactKey: Guid(839e088af8b3f654992d5325660eb472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/96dpi/paper-boat.png using Guid(839e088af8b3f654992d5325660eb472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1796afaaa54b804a14d79af5f15f724') in 0.017102 seconds 
+  Import took 0.020322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Underwater Game Kit/Props/150dpi/paper-boat.png
+  artifactKey: Guid(0b9ef93403286ef418af60de859f714a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/150dpi/paper-boat.png using Guid(0b9ef93403286ef418af60de859f714a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cfd2755f5564645eb9ac757f6503f07') in 0.018428 seconds 
+  Import took 0.021467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-5/light.png
+  artifactKey: Guid(c0bc3a8e0a2288d4facd53079d768623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-5/light.png using Guid(c0bc3a8e0a2288d4facd53079d768623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d0667d4ec53af7c9bb1366636698d2') in 0.017996 seconds 
+  Import took 0.020638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/crab/leg-3-2.png
+  artifactKey: Guid(a4a79e0c096436d4eba59d2b37e33bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/crab/leg-3-2.png using Guid(a4a79e0c096436d4eba59d2b37e33bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc5a09b7e96e740e99d41512d6c5b70') in 0.017888 seconds 
+  Import took 0.020966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/shrimp/leg-3.png
+  artifactKey: Guid(24fc95fce1d853d49b728f72ea034adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/shrimp/leg-3.png using Guid(24fc95fce1d853d49b728f72ea034adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55ff97893b99ebae3ec938bdb886ec3') in 0.018256 seconds 
+  Import took 0.021400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/shrimp/leg-3.png
+  artifactKey: Guid(bef643f0e35125141ba237e994c0874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/shrimp/leg-3.png using Guid(bef643f0e35125141ba237e994c0874d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0560277e2873a73608a920cca6aca9e') in 0.015914 seconds 
+  Import took 0.019149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-5/light.png
+  artifactKey: Guid(2e02d7d40322f294080f0676d646ce73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-5/light.png using Guid(2e02d7d40322f294080f0676d646ce73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe0d6e435076f6a9419636313bd8c58') in 0.016799 seconds 
+  Import took 0.019517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-5/light.png
+  artifactKey: Guid(d10e0498379ed8d4ca1fd10b4f227036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-5/light.png using Guid(d10e0498379ed8d4ca1fd10b4f227036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c664c677263cba24e0fc5b461b978ca') in 0.018469 seconds 
+  Import took 0.021186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/crab/leg-3-2.png
+  artifactKey: Guid(bba96734bf9843547b761a714318df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/crab/leg-3-2.png using Guid(bba96734bf9843547b761a714318df20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f58cfb288165038f726815c83993ebfd') in 0.016216 seconds 
+  Import took 0.019523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/crab/leg-3-2.png
+  artifactKey: Guid(984378375486670408f140da7766aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/crab/leg-3-2.png using Guid(984378375486670408f140da7766aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b293c640975c48598e3cf1742a0bda') in 0.020677 seconds 
+  Import took 0.023723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/crab/leg-3.png
+  artifactKey: Guid(e506cba97b0610f4fbff7935f4dad662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/crab/leg-3.png using Guid(e506cba97b0610f4fbff7935f4dad662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a0d1c12750003efbb70dc3e1cd72b1') in 0.015953 seconds 
+  Import took 0.019315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.425891 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/crab/leg-3.png
+  artifactKey: Guid(4ae710019758e284eb3b32b7405bd92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/crab/leg-3.png using Guid(4ae710019758e284eb3b32b7405bd92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c07e5b4527b4948df134a33e0d706e') in 0.018134 seconds 
+  Import took 0.021463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/crab/leg-2-2.png
+  artifactKey: Guid(99cc424e7f0fe594e88aee5da5ae6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/crab/leg-2-2.png using Guid(99cc424e7f0fe594e88aee5da5ae6b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b75e1719223fddd5b9f615e6a9da901') in 0.017154 seconds 
+  Import took 0.020420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/shrimp/leg-2.png
+  artifactKey: Guid(29884311671130c48b2ad0725a55fbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/shrimp/leg-2.png using Guid(29884311671130c48b2ad0725a55fbe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af857b6ad1e81a487c02ae4c88eb8e06') in 0.018674 seconds 
+  Import took 0.021628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/shrimp/leg-2.png
+  artifactKey: Guid(08d41ed107b4fef49be7cde314a5c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/shrimp/leg-2.png using Guid(08d41ed107b4fef49be7cde314a5c83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4507218607215e77b0c3c7b179fabe') in 0.016418 seconds 
+  Import took 0.019543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/shrimp/leg-2.png
+  artifactKey: Guid(07771c5754a15844483e9d428fa48e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/shrimp/leg-2.png using Guid(07771c5754a15844483e9d428fa48e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad125ae34966a2cb78d1c5c7f77f8487') in 0.014986 seconds 
+  Import took 0.017939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-6/fin.png
+  artifactKey: Guid(3f7ad18989ec212478694f5f1ea19c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-6/fin.png using Guid(3f7ad18989ec212478694f5f1ea19c91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d284806c46c92b0dfa38d017430adda') in 0.016802 seconds 
+  Import took 0.019622 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/crab/leg-2.png
+  artifactKey: Guid(cc949034b8becc14fab180eea6028126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/crab/leg-2.png using Guid(cc949034b8becc14fab180eea6028126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d4d29154dd0aafa71a26dbdb3abdc4') in 0.016267 seconds 
+  Import took 0.019426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-4/eye-closed.png
+  artifactKey: Guid(4ffd3f50d8017ec47a87b7cabeb20a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-4/eye-closed.png using Guid(4ffd3f50d8017ec47a87b7cabeb20a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1d49fff3ac06a024a273199783bba1d') in 0.018093 seconds 
+  Import took 0.020918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/seahorse/body.png
+  artifactKey: Guid(f6b02ce9009b32041942fcf1c91dc70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/seahorse/body.png using Guid(f6b02ce9009b32041942fcf1c91dc70d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6639be776408b830dd11d4ecfbe6c81') in 0.023424 seconds 
+  Import took 0.026469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-6/body.png
+  artifactKey: Guid(58f029a527e8d1e4cbade7e25e9731ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-6/body.png using Guid(58f029a527e8d1e4cbade7e25e9731ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a3289576490eac9825910eaae5995d') in 0.017971 seconds 
+  Import took 0.020680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/shrimp/antennae-1.png
+  artifactKey: Guid(43acc74f3b3c8b248906e6553aafd5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/shrimp/antennae-1.png using Guid(43acc74f3b3c8b248906e6553aafd5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b44f9b1058d66b07073b32df96a4744') in 0.016089 seconds 
+  Import took 0.019152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-2/body.png
+  artifactKey: Guid(a2cd581379db03a4287eb6c234f01203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-2/body.png using Guid(a2cd581379db03a4287eb6c234f01203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03178d39aeb0b340c83a68d8b45d7d6f') in 0.020919 seconds 
+  Import took 0.024519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-1/_character-setup.png
+  artifactKey: Guid(c7d8f5b35f6ca6d4893d7ad2975fe0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-1/_character-setup.png using Guid(c7d8f5b35f6ca6d4893d7ad2975fe0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbd6f4609cd33c8913307e41a7cca89') in 0.023299 seconds 
+  Import took 0.025979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/seahorse/_character-setup.png
+  artifactKey: Guid(cabcfecb583c198448bdeb5dbfdf6660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/seahorse/_character-setup.png using Guid(cabcfecb583c198448bdeb5dbfdf6660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdfb0f6b10192f191c5efbf812f2a12') in 0.021878 seconds 
+  Import took 0.024903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Underwater Game Kit/Environment/96dpi/algae-1/1.png
+  artifactKey: Guid(5394ea700b6b80c439d21374907f3dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/96dpi/algae-1/1.png using Guid(5394ea700b6b80c439d21374907f3dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ffcbac9b673c8e39e0b589bb7113746') in 0.020425 seconds 
+  Import took 0.023158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-3/eye-opened.png
+  artifactKey: Guid(9190589a0788030449e9fdc4fcd0efc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-3/eye-opened.png using Guid(9190589a0788030449e9fdc4fcd0efc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0d785a2420fb78efaca3d53caf1c2d') in 0.016224 seconds 
+  Import took 0.019315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-2/_character-setup.png
+  artifactKey: Guid(5a577ad037f5df94fb2ce55fbb24259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-2/_character-setup.png using Guid(5a577ad037f5df94fb2ce55fbb24259f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74be0eb93be86f37433a56d59ebb1ae8') in 0.020353 seconds 
+  Import took 0.023464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Underwater Game Kit/Props/150dpi/bottle.png
+  artifactKey: Guid(aa9be99c02bd1f140825777dc74d09a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/150dpi/bottle.png using Guid(aa9be99c02bd1f140825777dc74d09a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fd7feb18112a94a46910a86e5f447a') in 0.017210 seconds 
+  Import took 0.020122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/flounder/_character-setup.png
+  artifactKey: Guid(1a3f682f2c7d1b44c8397a7463a75a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/flounder/_character-setup.png using Guid(1a3f682f2c7d1b44c8397a7463a75a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50b6552edc647d5e41bdf48e36931392') in 0.020701 seconds 
+  Import took 0.023878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Underwater Game Kit/Props/300dpi/aquarium.png
+  artifactKey: Guid(55b41da7886bec94794ca4ea59ded3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/300dpi/aquarium.png using Guid(55b41da7886bec94794ca4ea59ded3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acc04b224e770b4444e19b225622496') in 0.023632 seconds 
+  Import took 0.026450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Underwater Game Kit/Environment/300dpi/algae-1/2.png
+  artifactKey: Guid(732dfb10ddbd8b943ace5624df136ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/300dpi/algae-1/2.png using Guid(732dfb10ddbd8b943ace5624df136ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65dbb2d043259601a8551b138ba3ff7e') in 0.026698 seconds 
+  Import took 0.029496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Underwater Game Kit/Background/PNG-Parallax/3000x1688/2-rays.png
+  artifactKey: Guid(c60212c83974e4a458d7f0de35e508d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Background/PNG-Parallax/3000x1688/2-rays.png using Guid(c60212c83974e4a458d7f0de35e508d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6289dc2ec739fe431ebb9d59138a02') in 0.022251 seconds 
+  Import took 0.024855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/seahorse/eye-opened.png
+  artifactKey: Guid(3f1f8fbb82836084ea48a3e92664f2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/seahorse/eye-opened.png using Guid(3f1f8fbb82836084ea48a3e92664f2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb57b195cea771d9dd6f542a42271cd1') in 0.017426 seconds 
+  Import took 0.020144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-2/fishtail.png
+  artifactKey: Guid(79bbb99998f422947aa9e624b8bec0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-2/fishtail.png using Guid(79bbb99998f422947aa9e624b8bec0d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b79b6ef64b903d62a0f8b0ef7757d63') in 0.016772 seconds 
+  Import took 0.019412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-3/body.png
+  artifactKey: Guid(5fc1144184e4a8f4f8f926770829bed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-3/body.png using Guid(5fc1144184e4a8f4f8f926770829bed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb55cc19eb36a28658d82f78845dec8') in 0.022212 seconds 
+  Import took 0.024989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-5/eye-opened.png
+  artifactKey: Guid(5d486b2ea82de66498730d75041fd6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-5/eye-opened.png using Guid(5d486b2ea82de66498730d75041fd6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ae64ef7b8bfb318b0078ce0018d52d') in 0.014110 seconds 
+  Import took 0.017015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/butterflyfish/_character-setup.png
+  artifactKey: Guid(641a4b184341c9f469ed7f8237a9a038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/butterflyfish/_character-setup.png using Guid(641a4b184341c9f469ed7f8237a9a038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6179e5eaffac8c896592a253aa138d9') in 0.018575 seconds 
+  Import took 0.021395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-5/eye-opened.png
+  artifactKey: Guid(689d52c516313f04e8ce14b7f6f44682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-5/eye-opened.png using Guid(689d52c516313f04e8ce14b7f6f44682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c243c57227269052d1a0ffc5152f880e') in 0.019395 seconds 
+  Import took 0.022715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-1/eye-opened.png
+  artifactKey: Guid(ce3723e0080182246be78fb35a251d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-1/eye-opened.png using Guid(ce3723e0080182246be78fb35a251d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97175a7ddaac85cfdc00ab8eb6bed89') in 0.016859 seconds 
+  Import took 0.019833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-1/_character-setup.png
+  artifactKey: Guid(11716c9924721df46a698598beef0bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-1/_character-setup.png using Guid(11716c9924721df46a698598beef0bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af5682c0712ce9906253f9ec30d915') in 0.016480 seconds 
+  Import took 0.019061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/seahorse/body.png
+  artifactKey: Guid(e055fc2a912106b46b56183e1ae85dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/seahorse/body.png using Guid(e055fc2a912106b46b56183e1ae85dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27cc6165e732e455753464740850f234') in 0.015609 seconds 
+  Import took 0.018193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/shrimp/body-2.png
+  artifactKey: Guid(815f80e061e8eeb47b51a402a824ba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/shrimp/body-2.png using Guid(815f80e061e8eeb47b51a402a824ba49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f9e6e3e5c06aab33a0e39d8f8e1e46') in 0.017099 seconds 
+  Import took 0.020245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/flounder/fin.png
+  artifactKey: Guid(36f21f6391bd9194f906e9a211428c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/flounder/fin.png using Guid(36f21f6391bd9194f906e9a211428c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecba8504aedbfe9984e6830fc928599f') in 0.015917 seconds 
+  Import took 0.018769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/seahorse/fin.png
+  artifactKey: Guid(49bb73ba28a534443be9d2a552fd81b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/seahorse/fin.png using Guid(49bb73ba28a534443be9d2a552fd81b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b512f03a0000081f68e10055b2ee591') in 0.016458 seconds 
+  Import took 0.019111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-1/eye-opened.png
+  artifactKey: Guid(8152d1e5853492543a36343d4d2bd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-1/eye-opened.png using Guid(8152d1e5853492543a36343d4d2bd7f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6f5f3b3629f2466516211808cf0b78') in 0.015754 seconds 
+  Import took 0.018521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/shrimp/body-2.png
+  artifactKey: Guid(a320074390e9bf24ca70f09530971e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/shrimp/body-2.png using Guid(a320074390e9bf24ca70f09530971e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891610917c59e66c1ff77752786559c4') in 0.021150 seconds 
+  Import took 0.024609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/crab/leg-2.png
+  artifactKey: Guid(a84a0942200367b4599df70c17574b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/crab/leg-2.png using Guid(a84a0942200367b4599df70c17574b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96706531b3b0c7df323960a96351c613') in 0.017789 seconds 
+  Import took 0.021186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-5/body.png
+  artifactKey: Guid(89f0c2303780b8d429709d7913004745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-5/body.png using Guid(89f0c2303780b8d429709d7913004745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a077676f9d57465e5f1b68331a45e35') in 0.019013 seconds 
+  Import took 0.022319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Underwater Game Kit/Environment/300dpi/algae-2/1.png
+  artifactKey: Guid(708af04b34024e341836454a0c099869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/300dpi/algae-2/1.png using Guid(708af04b34024e341836454a0c099869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02430ecc64b6e3c12bbe0b7bd1c9c04') in 0.037646 seconds 
+  Import took 0.040352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/seahorse/eye-closed.png
+  artifactKey: Guid(2463cbd123b1bcc42ab439f2fecd015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/seahorse/eye-closed.png using Guid(2463cbd123b1bcc42ab439f2fecd015c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d22d022b808f39d21160a7eaa84435b') in 0.014495 seconds 
+  Import took 0.017159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/flounder/body.png
+  artifactKey: Guid(f4c2c71691baaf84284744cb3f59133b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/flounder/body.png using Guid(f4c2c71691baaf84284744cb3f59133b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56d0a21920b0af9b199f021df46a806') in 0.020002 seconds 
+  Import took 0.022807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Underwater Game Kit/Props/150dpi/aquarium.png
+  artifactKey: Guid(435b14fd0161f5b49ad2c5ade8e68da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/150dpi/aquarium.png using Guid(435b14fd0161f5b49ad2c5ade8e68da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdbaca2ece90b7e513c5e92f283620b6') in 0.016804 seconds 
+  Import took 0.019411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-2/eye-opened.png
+  artifactKey: Guid(353b80dad2013ef4096e0aa174aae348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-2/eye-opened.png using Guid(353b80dad2013ef4096e0aa174aae348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c36a15afba8c41daee1121f20a9213a') in 0.014398 seconds 
+  Import took 0.017789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/butterflyfish/eye-closed.png
+  artifactKey: Guid(5cf75d21a255af0418c5f6126cd4eb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/butterflyfish/eye-closed.png using Guid(5cf75d21a255af0418c5f6126cd4eb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b444b59e71d301dc65449d9a75a3eaf') in 0.017545 seconds 
+  Import took 0.020411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/sea turtle/_character-setup.png
+  artifactKey: Guid(a9b0252a0b1a4684abe35905912961b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/sea turtle/_character-setup.png using Guid(a9b0252a0b1a4684abe35905912961b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da5e5c5e0d3a8aa91fedea251999380') in 0.025461 seconds 
+  Import took 0.028181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/butterflyfish/fin.png
+  artifactKey: Guid(147ef284de90a3b4c8099e0886271625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/butterflyfish/fin.png using Guid(147ef284de90a3b4c8099e0886271625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2982de1855c957d99f55678b1d8b64c') in 0.018364 seconds 
+  Import took 0.020976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-4/fin.png
+  artifactKey: Guid(f8da8327bb746914cba2f597f0055b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-4/fin.png using Guid(f8da8327bb746914cba2f597f0055b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb9a26f2e8e467c918ae24d3bf647cb') in 0.016828 seconds 
+  Import took 0.019649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Underwater Game Kit/Props/300dpi/bottle.png
+  artifactKey: Guid(dd56201e8e96cc0439a6b894c6959e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/300dpi/bottle.png using Guid(dd56201e8e96cc0439a6b894c6959e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b59930568aa9de4a3732cda2c512151') in 0.020884 seconds 
+  Import took 0.024048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/shrimp/antennae-2.png
+  artifactKey: Guid(b0854a4c9af7ced4f94a8ccfba39d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/shrimp/antennae-2.png using Guid(b0854a4c9af7ced4f94a8ccfba39d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31842c759dfa8a43d283b77bf70a94d1') in 0.017404 seconds 
+  Import took 0.020696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Underwater Game Kit/Environment/150dpi/algae-2/1.png
+  artifactKey: Guid(ad02ba1727ce3424c8ca8b8e78983a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/150dpi/algae-2/1.png using Guid(ad02ba1727ce3424c8ca8b8e78983a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf1237731b6a96fa7f3acec26978077') in 0.024328 seconds 
+  Import took 0.027202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-2/eye-closed.png
+  artifactKey: Guid(ded34204a2f38bf4ba4085c4de35ae6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-2/eye-closed.png using Guid(ded34204a2f38bf4ba4085c4de35ae6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464aa7c89618488a9f8b717e1a9f4450') in 0.015187 seconds 
+  Import took 0.018155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Underwater Game Kit/Environment/150dpi/algae-1/2.png
+  artifactKey: Guid(a75bd8181cb0d9241a0d1eede9234c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/150dpi/algae-1/2.png using Guid(a75bd8181cb0d9241a0d1eede9234c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0613a33c0f6a87921e03bd6e155207c9') in 0.018878 seconds 
+  Import took 0.022169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-3/eye-closed.png
+  artifactKey: Guid(fdbb3a61c1117a44499843666684409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-3/eye-closed.png using Guid(fdbb3a61c1117a44499843666684409e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dde77ef48e6c076d9364bd6fc8d136') in 0.014552 seconds 
+  Import took 0.017836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/shrimp/body-1.png
+  artifactKey: Guid(d817f4fee217149499737261fdaa86d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/shrimp/body-1.png using Guid(d817f4fee217149499737261fdaa86d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19800872fabbb1271230cda7d9f7a04e') in 0.016697 seconds 
+  Import took 0.019868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-6/body.png
+  artifactKey: Guid(f88a32498ab84e647a199fa373c00ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-6/body.png using Guid(f88a32498ab84e647a199fa373c00ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0979c603fc5374b8741c0cc62130050') in 0.019371 seconds 
+  Import took 0.022175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/butterflyfish/fin.png
+  artifactKey: Guid(9da57a96ba59bbb449c9ebfc1d462190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/butterflyfish/fin.png using Guid(9da57a96ba59bbb449c9ebfc1d462190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76112360e969730348fc83a514f8df2') in 0.019959 seconds 
+  Import took 0.022605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/shrimp/body-1.png
+  artifactKey: Guid(cfd9e571efdb4584799dd870fb23ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/shrimp/body-1.png using Guid(cfd9e571efdb4584799dd870fb23ec29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67b0701d260e97a62c714b434a26599') in 0.017833 seconds 
+  Import took 0.020387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Underwater Game Kit/Props/96dpi/anchor.png
+  artifactKey: Guid(29bb0c3783a8b574480e2a9fd7f3e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/96dpi/anchor.png using Guid(29bb0c3783a8b574480e2a9fd7f3e649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1ed95fa85695abcb228f4679f76edb') in 0.018704 seconds 
+  Import took 0.021707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/butterflyfish/eye-opened.png
+  artifactKey: Guid(5407dfa64ccd1e846bc8ec467a6c074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/butterflyfish/eye-opened.png using Guid(5407dfa64ccd1e846bc8ec467a6c074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f9f9eb3f5cf86940b6cb7961b6fa71e') in 0.015056 seconds 
+  Import took 0.018329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-1/_character-setup.png
+  artifactKey: Guid(201dcfec97a09ae4381e8f4249ef7b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-1/_character-setup.png using Guid(201dcfec97a09ae4381e8f4249ef7b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a446f93fddfc6afe1e7d74fa6d558d49') in 0.018185 seconds 
+  Import took 0.020889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Underwater Game Kit/Background/PNG-Parallax/6000x3375/1-water.png
+  artifactKey: Guid(160e99f06203ee34b89b107ae69c9b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Background/PNG-Parallax/6000x3375/1-water.png using Guid(160e99f06203ee34b89b107ae69c9b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9d156b2b49e0d3bc9af9aeb35ebbdb') in 0.023094 seconds 
+  Import took 0.026477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/crab/leg-2-2.png
+  artifactKey: Guid(f62ed15ddc54bd14b8ae230e1dd2077f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/crab/leg-2-2.png using Guid(f62ed15ddc54bd14b8ae230e1dd2077f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479ea05fd40207d9909f7f3a62fc1b02') in 0.016916 seconds 
+  Import took 0.020097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Underwater Game Kit/Environment/150dpi/algae-1/3.png
+  artifactKey: Guid(f6bb14ed4ed804b44b3d3e55b9f37717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/150dpi/algae-1/3.png using Guid(f6bb14ed4ed804b44b3d3e55b9f37717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48044263338a47b9802a20e122f32d2') in 0.018601 seconds 
+  Import took 0.021608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-2/_character-setup.png
+  artifactKey: Guid(43f819bdd93bc084aaa37535174ac7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-2/_character-setup.png using Guid(43f819bdd93bc084aaa37535174ac7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c691b53d36a73d5ba5a96be0c98410bf') in 0.019863 seconds 
+  Import took 0.022926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/crab/leg-3.png
+  artifactKey: Guid(976d37b02ddce9048b2a3c3074a6434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/crab/leg-3.png using Guid(976d37b02ddce9048b2a3c3074a6434e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf614f107f0de7ad0a196fdbf4e2c63') in 0.017847 seconds 
+  Import took 0.021141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/shrimp/antennae-1.png
+  artifactKey: Guid(84a3ad2fb5e54c440ae135b32275707a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/shrimp/antennae-1.png using Guid(84a3ad2fb5e54c440ae135b32275707a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43b6ecb4ccbb4448623ea32973884cf') in 0.018641 seconds 
+  Import took 0.021194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Underwater Game Kit/Environment/150dpi/algae-2/3.png
+  artifactKey: Guid(a3e9d66b7a115214199771f6456eb387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/150dpi/algae-2/3.png using Guid(a3e9d66b7a115214199771f6456eb387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b108f10627a17ee682e5ff03163bfab8') in 0.025350 seconds 
+  Import took 0.028621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Underwater Game Kit/Environment/150dpi/algae-1/1.png
+  artifactKey: Guid(0c40ea01778ae674a876b2f390269b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/150dpi/algae-1/1.png using Guid(0c40ea01778ae674a876b2f390269b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c087c63e0e3bf7a35a9f23c7ae24d5ad') in 0.018960 seconds 
+  Import took 0.022463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/sea turtle/head.png
+  artifactKey: Guid(de705dbaa22f1be44b9ff1fc24b52038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/sea turtle/head.png using Guid(de705dbaa22f1be44b9ff1fc24b52038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1a0ac9c7d02d06796f2c7c618402f8') in 0.020592 seconds 
+  Import took 0.023532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-1/fishtail.png
+  artifactKey: Guid(cd94074598062c54a83d0dbefddb4233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-1/fishtail.png using Guid(cd94074598062c54a83d0dbefddb4233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea2e455f181a658fc3fc188ebad9e88') in 0.015404 seconds 
+  Import took 0.018312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/flounder/body.png
+  artifactKey: Guid(053f1b27f9abc4f4ab12a7bc951fc986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/flounder/body.png using Guid(053f1b27f9abc4f4ab12a7bc951fc986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa4da095590df2b5f41f472d90009fd') in 0.018072 seconds 
+  Import took 0.020762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-1/eye-closed.png
+  artifactKey: Guid(46f2097b4ecd4bc4daf7a1c4b8be7b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-1/eye-closed.png using Guid(46f2097b4ecd4bc4daf7a1c4b8be7b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c61923cc17f99b011271975e3b35bee') in 0.016077 seconds 
+  Import took 0.019356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-6/_character-setup.png
+  artifactKey: Guid(31b493efdb263014bbc6437d9a832be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-6/_character-setup.png using Guid(31b493efdb263014bbc6437d9a832be9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678dd3c9168cf6e6555d7317c9b809a1') in 0.020878 seconds 
+  Import took 0.023566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/crab/leg-2.png
+  artifactKey: Guid(e0f13c82a9501d94daee264b13a51982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/crab/leg-2.png using Guid(e0f13c82a9501d94daee264b13a51982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3439f4e6f8b9fa23a2d0ce84738f37c4') in 0.019849 seconds 
+  Import took 0.023312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-1/fin.png
+  artifactKey: Guid(d7bcce37cc6474c449ac100c4bc1a398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-1/fin.png using Guid(d7bcce37cc6474c449ac100c4bc1a398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646dd89d27adea5f80f123f807d2e56c') in 0.019512 seconds 
+  Import took 0.022541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Underwater Game Kit/Background/PNG-Parallax/3000x1688/1-water.png
+  artifactKey: Guid(c21ab3cb639c8d945b29449673fb8f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Background/PNG-Parallax/3000x1688/1-water.png using Guid(c21ab3cb639c8d945b29449673fb8f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90dc1eba272728ba73163189e4a175f') in 0.017948 seconds 
+  Import took 0.020568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/crab/leg-2-2.png
+  artifactKey: Guid(cea80bf404caecf45a80ca19646fd515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/crab/leg-2-2.png using Guid(cea80bf404caecf45a80ca19646fd515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad7f5e2d1f646a2ac83fe307a9f23916') in 0.015844 seconds 
+  Import took 0.018725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-4/_character-setup.png
+  artifactKey: Guid(91d417fa191caf44992dbf2c4aa538ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-4/_character-setup.png using Guid(91d417fa191caf44992dbf2c4aa538ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8005e0db46df5dcb13db1b19e4be4f5') in 0.018913 seconds 
+  Import took 0.022151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/shrimp/eye-opened.png
+  artifactKey: Guid(ad0f5d900875d8f4cadf3db74fad6d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/shrimp/eye-opened.png using Guid(ad0f5d900875d8f4cadf3db74fad6d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2a4980259da0f7e0b7c8a2fa9153f1') in 0.014364 seconds 
+  Import took 0.017448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-3/_character-setup.png
+  artifactKey: Guid(e2382fb30b19bbd4b946f192297bddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-3/_character-setup.png using Guid(e2382fb30b19bbd4b946f192297bddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23482294182cf71c2cb8793f3d717baa') in 0.022138 seconds 
+  Import took 0.024838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/crab/_character-setup.png
+  artifactKey: Guid(ffb819f95cb171645a07addcc3951644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/crab/_character-setup.png using Guid(ffb819f95cb171645a07addcc3951644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb92cb71af1de9988a0ff717216e894') in 0.024370 seconds 
+  Import took 0.027797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/shrimp/eye-closed.png
+  artifactKey: Guid(7228d1b1d1ba15e4ea18a903aec9511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/shrimp/eye-closed.png using Guid(7228d1b1d1ba15e4ea18a903aec9511e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1ba461f82923d4c917e15d6531dfe6b') in 0.015351 seconds 
+  Import took 0.018324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-4/body.png
+  artifactKey: Guid(1e7e2c9017c53f74b9fe9a7791db24f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-4/body.png using Guid(1e7e2c9017c53f74b9fe9a7791db24f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f947230c45b9e797286869f4a2b2740') in 0.016454 seconds 
+  Import took 0.019592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Underwater Game Kit/Props/96dpi/aquarium.png
+  artifactKey: Guid(3a343c80c4026e44e86ecd4cf58e05b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/96dpi/aquarium.png using Guid(3a343c80c4026e44e86ecd4cf58e05b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b5664ada9b952cc8422f7e7acad0c5') in 0.017034 seconds 
+  Import took 0.019773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Underwater Game Kit/Background/PNG-Parallax/1920x1080/2-rays.png
+  artifactKey: Guid(b1f6a6dc7f7ce5d4e808c8a4c4f7a0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Background/PNG-Parallax/1920x1080/2-rays.png using Guid(b1f6a6dc7f7ce5d4e808c8a4c4f7a0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee8ce6b88faea667ae4afdae35106b5') in 0.021623 seconds 
+  Import took 0.024647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-3/fin.png
+  artifactKey: Guid(7c5ff08bb6d311c4aaf6ab970817d988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-3/fin.png using Guid(7c5ff08bb6d311c4aaf6ab970817d988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c7a2d75706da70094d5f466a9f1e1d') in 0.016330 seconds 
+  Import took 0.019690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Underwater Game Kit/Props/150dpi/anchor.png
+  artifactKey: Guid(f498ead5515aa3d43a2a6e6168230983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Props/150dpi/anchor.png using Guid(f498ead5515aa3d43a2a6e6168230983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ad5a04c0a8def663c3227716dcacb0') in 0.019415 seconds 
+  Import took 0.022790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Underwater Game Kit/Environment/300dpi/algae-2/2.png
+  artifactKey: Guid(3fd160d28a482e0448ac82d8265679c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/300dpi/algae-2/2.png using Guid(3fd160d28a482e0448ac82d8265679c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa699ca2a87c5ef63e84ec1cdc57f76') in 0.028295 seconds 
+  Import took 0.030992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/shrimp/_character-setup.png
+  artifactKey: Guid(f057e3d4b842e5c48ba314773d38cf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/shrimp/_character-setup.png using Guid(f057e3d4b842e5c48ba314773d38cf18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbcfd17cca9e7e10ee58d09ffbb3cac7') in 0.038225 seconds 
+  Import took 0.041089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Underwater Game Kit/Environment/96dpi/algae-2/2.png
+  artifactKey: Guid(989ea12276384594eb8be967adac81f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/96dpi/algae-2/2.png using Guid(989ea12276384594eb8be967adac81f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13b78ca03965b234573c1fbf5d81280') in 0.019300 seconds 
+  Import took 0.022271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/sea turtle/_character-setup.png
+  artifactKey: Guid(badf422d4bc52b84c8318e4168fd7351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/sea turtle/_character-setup.png using Guid(badf422d4bc52b84c8318e4168fd7351) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad45b2607a8478c762611cb2dfc7e682') in 0.019178 seconds 
+  Import took 0.021967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/seahorse/_character-setup.png
+  artifactKey: Guid(29493d3ffef0baf45a02583e60868b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/seahorse/_character-setup.png using Guid(29493d3ffef0baf45a02583e60868b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8e169d49ae82fea3ca2144e652dacc') in 0.019583 seconds 
+  Import took 0.022499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-2/body.png
+  artifactKey: Guid(b5c43b81f9bd193428fd9aa589a2508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-2/body.png using Guid(b5c43b81f9bd193428fd9aa589a2508e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '039d8d09a6bdf355bdd37e12f13d617d') in 0.015854 seconds 
+  Import took 0.018431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Underwater Game Kit/Background/PNG-Parallax/1920x1080/1-water.png
+  artifactKey: Guid(ff8f3b2fc45b1f04aa202c3a6dcaff11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Background/PNG-Parallax/1920x1080/1-water.png using Guid(ff8f3b2fc45b1f04aa202c3a6dcaff11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3fd8896e12748f68c3e6ca653b543e') in 0.015826 seconds 
+  Import took 0.018725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Underwater Game Kit/Environment/96dpi/algae-2/3.png
+  artifactKey: Guid(8c49c44b0a7e8574293de9ceb84ba5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/96dpi/algae-2/3.png using Guid(8c49c44b0a7e8574293de9ceb84ba5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c41925e82bac5dddb0aaae44bb282c7') in 0.017645 seconds 
+  Import took 0.020540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-1/body.png
+  artifactKey: Guid(758218381c8ac984b91a5a3b3dbe0d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-1/body.png using Guid(758218381c8ac984b91a5a3b3dbe0d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f199e866ed18b83c234e5aa1dc4f8c7d') in 0.016978 seconds 
+  Import took 0.020340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-1/eye-closed.png
+  artifactKey: Guid(831d7ef4c3d0c1149bda3805140b0d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-1/eye-closed.png using Guid(831d7ef4c3d0c1149bda3805140b0d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553fca03b00362c94c006f0b694ee6d4') in 0.013929 seconds 
+  Import took 0.016468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-6/fishtail.png
+  artifactKey: Guid(4a998c01336cb1a49904edd2a1477343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-6/fishtail.png using Guid(4a998c01336cb1a49904edd2a1477343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510ad74189bf579764e7b901c219386e') in 0.017311 seconds 
+  Import took 0.020345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-5/fin.png
+  artifactKey: Guid(4b1e6bd5cc0fd6f4da715f1cd34de392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-5/fin.png using Guid(4b1e6bd5cc0fd6f4da715f1cd34de392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb95f976699a5de01a1d4dc473ad8832') in 0.019600 seconds 
+  Import took 0.022129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-2/eye-closed.png
+  artifactKey: Guid(7b244e27fa8d630498f22bccb6aeb5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-2/eye-closed.png using Guid(7b244e27fa8d630498f22bccb6aeb5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc56ba578a876fe9e7dddbd59f701f67') in 0.016623 seconds 
+  Import took 0.019376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/clownfish/eye-closed.png
+  artifactKey: Guid(bd77f5e1916e6ee4c98505dbc829755a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/clownfish/eye-closed.png using Guid(bd77f5e1916e6ee4c98505dbc829755a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65249111b0badb4693158fefffb11820') in 0.013643 seconds 
+  Import took 0.016301 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Underwater Game Kit/Background/PNG-Parallax/6000x3375/2-rays.png
+  artifactKey: Guid(bb4fff878994fe444bb28460959d8b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Background/PNG-Parallax/6000x3375/2-rays.png using Guid(bb4fff878994fe444bb28460959d8b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54de46223ac8c8d48526b845341818f') in 0.020887 seconds 
+  Import took 0.023865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-1/fin.png
+  artifactKey: Guid(414b5111bd546e44bae2da9a233a3d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-1/fin.png using Guid(414b5111bd546e44bae2da9a233a3d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44da63fdd73e242798120cf0ba96a578') in 0.014410 seconds 
+  Import took 0.017224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/shrimp/body-2.png
+  artifactKey: Guid(95e9f15f192dac04f90ff71fb9d68317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/shrimp/body-2.png using Guid(95e9f15f192dac04f90ff71fb9d68317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59564e92add5b644eb1cbd2a8d1b95f3') in 0.015367 seconds 
+  Import took 0.018594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Underwater Game Kit/Environment/96dpi/algae-1/3.png
+  artifactKey: Guid(4f367b3c6d46e4b4399a5b2d90a34f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/96dpi/algae-1/3.png using Guid(4f367b3c6d46e4b4399a5b2d90a34f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cac404f6fdf67742dc1502e26c28dd') in 0.019539 seconds 
+  Import took 0.022278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/clownfish/fishtail.png
+  artifactKey: Guid(5f770d8d679a02942a283c94cb21d6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/clownfish/fishtail.png using Guid(5f770d8d679a02942a283c94cb21d6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3f7c07c2e4779992ceab7c1941aa2e') in 0.014262 seconds 
+  Import took 0.016970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/shrimp/antennae-1.png
+  artifactKey: Guid(b16145eb67f1c574cbcb0dee226414db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/shrimp/antennae-1.png using Guid(b16145eb67f1c574cbcb0dee226414db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772dca10b7997c98187a408d74e17138') in 0.015805 seconds 
+  Import took 0.018428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Underwater Game Kit/Environment/96dpi/algae-1/2.png
+  artifactKey: Guid(714680e658bb20d4b98083582883f1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/96dpi/algae-1/2.png using Guid(714680e658bb20d4b98083582883f1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6244e66b54dabd1f6574be685144c2c7') in 0.019352 seconds 
+  Import took 0.022206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-3/eye-opened.png
+  artifactKey: Guid(178646166fd14dd4b8578f9a968c5b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-3/eye-opened.png using Guid(178646166fd14dd4b8578f9a968c5b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d2e5ed8585dbd473926b8088ab7aa9d') in 0.016609 seconds 
+  Import took 0.019532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-2/_character-setup.png
+  artifactKey: Guid(919e55a0caf52914b9bb537e44c28f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-2/_character-setup.png using Guid(919e55a0caf52914b9bb537e44c28f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745fdfad102dd2a6647763191e64c5a5') in 0.022035 seconds 
+  Import took 0.024987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Underwater Game Kit/Environment/300dpi/algae-1/1.png
+  artifactKey: Guid(d044d4295e5c6c248b6b3d9a07101f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/300dpi/algae-1/1.png using Guid(d044d4295e5c6c248b6b3d9a07101f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8320bd9aecf382a5b9cd6de0836a1b04') in 0.022285 seconds 
+  Import took 0.025043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/flounder/fishtail.png
+  artifactKey: Guid(10b393feee5e3fe4aacc4f7381fa6bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/flounder/fishtail.png using Guid(10b393feee5e3fe4aacc4f7381fa6bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3fa64b0fa37e3c6b2d4485a67e15cc') in 0.015709 seconds 
+  Import took 0.018285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-3/fishtail.png
+  artifactKey: Guid(ecfbacf3f3cbc02419fab50b8ef70255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-3/fishtail.png using Guid(ecfbacf3f3cbc02419fab50b8ef70255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce1c3779dc79b3b86e36521a9bdaac7') in 0.015550 seconds 
+  Import took 0.018277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/fish-3/body.png
+  artifactKey: Guid(a7c8a2b67472baf459dfd4c9f558e7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/fish-3/body.png using Guid(a7c8a2b67472baf459dfd4c9f558e7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef251cbbf6ef1dd3ad1fcc5391cac747') in 0.015523 seconds 
+  Import took 0.018446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/shrimp/antennae-2.png
+  artifactKey: Guid(f96ea2e3746b2a24389776503b7bf965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/shrimp/antennae-2.png using Guid(f96ea2e3746b2a24389776503b7bf965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09551ef9d32f41e8eb72d3dbcc0ab1bb') in 0.016222 seconds 
+  Import took 0.018799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/clownfish/eye-closed.png
+  artifactKey: Guid(2eff7faa9d6e8fa4f9e9464c29aa0d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/clownfish/eye-closed.png using Guid(2eff7faa9d6e8fa4f9e9464c29aa0d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d62a11edb8f0b448bbd5bf91a8c54cb') in 0.014268 seconds 
+  Import took 0.016886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/sea turtle/eye-opened.png
+  artifactKey: Guid(3d14e6ffcecc2ea409ece2d35de01b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/sea turtle/eye-opened.png using Guid(3d14e6ffcecc2ea409ece2d35de01b7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce52a96e305a766c11941e792a69da6') in 0.017038 seconds 
+  Import took 0.019754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/clownfish/fin.png
+  artifactKey: Guid(03518929fa2c6524787bef7feb9c9fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/clownfish/fin.png using Guid(03518929fa2c6524787bef7feb9c9fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e06b65c1c923f6c1afdaf0406234c7') in 0.014677 seconds 
+  Import took 0.017498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/flounder/_character-setup.png
+  artifactKey: Guid(447191612713e5c49adf2ff5dba94d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/flounder/_character-setup.png using Guid(447191612713e5c49adf2ff5dba94d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f3ebd5335c01d93c1aa3905c15a1cd') in 0.018802 seconds 
+  Import took 0.021407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Underwater Game Kit/Environment/96dpi/algae-2/1.png
+  artifactKey: Guid(8ffa46d1fc4dee145b6afc8bb363a879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Environment/96dpi/algae-2/1.png using Guid(8ffa46d1fc4dee145b6afc8bb363a879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20193a853932ca8b0c1d92b815350df6') in 0.018441 seconds 
+  Import took 0.021136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Underwater Game Kit/Creatures/96dpi/shrimp/leg-3.png
+  artifactKey: Guid(31096e9a9eda5b34c8110238b83cd165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/96dpi/shrimp/leg-3.png using Guid(31096e9a9eda5b34c8110238b83cd165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da10c957c3223e5c83bc8bcd51548d05') in 0.014048 seconds 
+  Import took 0.016680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/fish-6/_character-setup.png
+  artifactKey: Guid(d40ca068c93dd1f439b83b642e8c8cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/fish-6/_character-setup.png using Guid(d40ca068c93dd1f439b83b642e8c8cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c3838b465558764eefdab314ee081f') in 0.023025 seconds 
+  Import took 0.025857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/clownfish/body.png
+  artifactKey: Guid(eb5706c4b319abb4883875daf3506e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/clownfish/body.png using Guid(eb5706c4b319abb4883875daf3506e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25be01b51a9ea91c5d7325e5334f132') in 0.018644 seconds 
+  Import took 0.021219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/shrimp/antennae-2.png
+  artifactKey: Guid(25a06b9664a4dd14ea2a85215ecc1f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/shrimp/antennae-2.png using Guid(25a06b9664a4dd14ea2a85215ecc1f9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bbcff788a338960657a66af4e33362') in 0.018362 seconds 
+  Import took 0.021277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Underwater Game Kit/Creatures/300dpi/clownfish/_character-setup.png
+  artifactKey: Guid(e210a45c6d0d30544acf161236032abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/300dpi/clownfish/_character-setup.png using Guid(e210a45c6d0d30544acf161236032abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8aadf235eb4b147d913916a05a09f74') in 0.018752 seconds 
+  Import took 0.021424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/shrimp/_character-setup.png
+  artifactKey: Guid(8380b503a6859874b82ef9920ee1ff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/shrimp/_character-setup.png using Guid(8380b503a6859874b82ef9920ee1ff49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99bb22f3743c590b9cefdda0201152f') in 0.018611 seconds 
+  Import took 0.021368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/fish-3/_character-setup.png
+  artifactKey: Guid(e0a8c39fe0831574d8915548bdf51587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/fish-3/_character-setup.png using Guid(e0a8c39fe0831574d8915548bdf51587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1415e1a0941fa90986cc6404730bcbf') in 0.018369 seconds 
+  Import took 0.021432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Underwater Game Kit/Creatures/150dpi/shrimp/body-1.png
+  artifactKey: Guid(c9b4a122c1dedce4fa832aef203e4500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Underwater Game Kit/Creatures/150dpi/shrimp/body-1.png using Guid(c9b4a122c1dedce4fa832aef203e4500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c03964aa253e6be68ab28117f0c039') in 0.017752 seconds 
+  Import took 0.021057 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.785 seconds
+Domain Reload Profiling:
+	ReloadAssembly (785ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (638ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.0 MB.
+System memory in use after: 109.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2825.
+Total: 2.766800 ms (FindLiveObjects: 0.205300 ms CreateObjectMapping: 0.048600 ms MarkObjects: 2.497600 ms  DeleteObjects: 0.014300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002603 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Domain Reload Profiling:
+	ReloadAssembly (856ms)
+		BeginReloadAssembly (108ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (689ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.1 MB.
+System memory in use after: 109.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2828.
+Total: 2.971200 ms (FindLiveObjects: 0.222700 ms CreateObjectMapping: 0.048700 ms MarkObjects: 2.682100 ms  DeleteObjects: 0.016700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002439 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.799 seconds
+Domain Reload Profiling:
+	ReloadAssembly (799ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (645ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.1 MB.
+System memory in use after: 109.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2831.
+Total: 2.884600 ms (FindLiveObjects: 0.234200 ms CreateObjectMapping: 0.050100 ms MarkObjects: 2.582100 ms  DeleteObjects: 0.017300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (640ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (234ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.1 MB.
+System memory in use after: 109.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2834.
+Total: 2.799000 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.047300 ms MarkObjects: 2.515000 ms  DeleteObjects: 0.017700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009336 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (830ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (680ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (225ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (231ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.1 MB.
+System memory in use after: 109.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2837.
+Total: 2.686200 ms (FindLiveObjects: 0.219500 ms CreateObjectMapping: 0.048200 ms MarkObjects: 2.403100 ms  DeleteObjects: 0.014200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002476 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.795 seconds
+Domain Reload Profiling:
+	ReloadAssembly (795ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (645ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (232ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.1 MB.
+System memory in use after: 109.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2840.
+Total: 3.076200 ms (FindLiveObjects: 0.210400 ms CreateObjectMapping: 0.050200 ms MarkObjects: 2.797600 ms  DeleteObjects: 0.017000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002426 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (854ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2844.
+Total: 3.998800 ms (FindLiveObjects: 0.228400 ms CreateObjectMapping: 0.048900 ms MarkObjects: 3.697100 ms  DeleteObjects: 0.023000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.788 seconds
+Domain Reload Profiling:
+	ReloadAssembly (789ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (627ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (225ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2847.
+Total: 2.870600 ms (FindLiveObjects: 0.234800 ms CreateObjectMapping: 0.049100 ms MarkObjects: 2.569400 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1207.269153 seconds.
+  path: Assets/Code/PauseMenu.cs
+  artifactKey: Guid(c77ea573f062bad4bb769882767cb580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/PauseMenu.cs using Guid(c77ea573f062bad4bb769882767cb580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc366646e354212983d7485f9b9d676') in 0.018172 seconds 
+  Import took 0.022066 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005799 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.864 seconds
+Domain Reload Profiling:
+	ReloadAssembly (864ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (255ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2850.
+Total: 3.098100 ms (FindLiveObjects: 0.220600 ms CreateObjectMapping: 0.049900 ms MarkObjects: 2.809000 ms  DeleteObjects: 0.017500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 317.177721 seconds.
+  path: Assets/Code/PauseMenu.cs
+  artifactKey: Guid(c77ea573f062bad4bb769882767cb580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/PauseMenu.cs using Guid(c77ea573f062bad4bb769882767cb580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9158add0d4eedeb33b84e62a89f67af') in 0.008805 seconds 
+  Import took 0.012407 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003092 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.856 seconds
+Domain Reload Profiling:
+	ReloadAssembly (856ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (696ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (249ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2853.
+Total: 2.845300 ms (FindLiveObjects: 0.241600 ms CreateObjectMapping: 0.050100 ms MarkObjects: 2.536200 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Domain Reload Profiling:
+	ReloadAssembly (961ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (781ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (272ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2856.
+Total: 3.565200 ms (FindLiveObjects: 0.641500 ms CreateObjectMapping: 0.146700 ms MarkObjects: 2.758900 ms  DeleteObjects: 0.016800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002816 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.877 seconds
+Domain Reload Profiling:
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (714ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (248ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (259ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2859.
+Total: 2.926100 ms (FindLiveObjects: 0.252800 ms CreateObjectMapping: 0.049900 ms MarkObjects: 2.605800 ms  DeleteObjects: 0.016500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Domain Reload Profiling:
+	ReloadAssembly (787ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (646ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2862.
+Total: 3.181500 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.090400 ms MarkObjects: 2.848200 ms  DeleteObjects: 0.015900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002585 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Domain Reload Profiling:
+	ReloadAssembly (813ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (661ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2865.
+Total: 3.059700 ms (FindLiveObjects: 0.256500 ms CreateObjectMapping: 0.048900 ms MarkObjects: 2.736500 ms  DeleteObjects: 0.016700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004587 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.778 seconds
+Domain Reload Profiling:
+	ReloadAssembly (778ms)
+		BeginReloadAssembly (96ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (629ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (219ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (222ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2868.
+Total: 2.971200 ms (FindLiveObjects: 0.205500 ms CreateObjectMapping: 0.049300 ms MarkObjects: 2.700200 ms  DeleteObjects: 0.015300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002526 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Domain Reload Profiling:
+	ReloadAssembly (948ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (764ms)
+			LoadAssemblies (86ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (199ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2871.
+Total: 3.252200 ms (FindLiveObjects: 0.276400 ms CreateObjectMapping: 0.053600 ms MarkObjects: 2.899600 ms  DeleteObjects: 0.021300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002947 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Domain Reload Profiling:
+	ReloadAssembly (860ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (700ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (246ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (177ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2874.
+Total: 3.151500 ms (FindLiveObjects: 0.350500 ms CreateObjectMapping: 0.051400 ms MarkObjects: 2.729200 ms  DeleteObjects: 0.018200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 722.856122 seconds.
+  path: Assets/Scenes/Level1.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Level1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e067e175a7ec2af6beccaeb7195febd2') in 0.031491 seconds 
+  Import took 0.035589 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003266 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Domain Reload Profiling:
+	ReloadAssembly (833ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (679ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (236ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (170ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.2 MB.
+System memory in use after: 109.5 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2877.
+Total: 2.839800 ms (FindLiveObjects: 0.225900 ms CreateObjectMapping: 0.048900 ms MarkObjects: 2.550200 ms  DeleteObjects: 0.013700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002936 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (851ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (683ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (241ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.3 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2880.
+Total: 3.079200 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.048400 ms MarkObjects: 2.771300 ms  DeleteObjects: 0.018900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002858 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.842 seconds
+Domain Reload Profiling:
+	ReloadAssembly (843ms)
+		BeginReloadAssembly (100ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (679ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (228ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2085 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.4 MB.
+System memory in use after: 109.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2883.
+Total: 2.955700 ms (FindLiveObjects: 0.224400 ms CreateObjectMapping: 0.051700 ms MarkObjects: 2.659800 ms  DeleteObjects: 0.019000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
