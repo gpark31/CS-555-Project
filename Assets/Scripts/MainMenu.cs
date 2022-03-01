@@ -9,10 +9,10 @@ public class MainMenu : MonoBehaviour
     public void PlayGame(int l)
     {
         SceneManager.LoadScene(l);
-        if(SceneManager.GetActiveScene() != SceneManager.GetSceneAt(l))
-        {
-            Debug.Log("Error");
-        }
+        //if (SceneManager.GetActiveScene() != SceneManager.GetSceneAt(l))
+        //{
+       //     Debug.Log("Error");
+       // }
     }
 
     public void ReturnToMenu()
