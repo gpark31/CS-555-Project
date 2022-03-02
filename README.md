@@ -3,6 +3,6 @@
 > This project is designed to help reduce players' stress. 
 >> Users will be able to enjoy nice calming using and sprites and raise a pet of their own. 
 >>> Time to start the adventure!
->>>> To download this game, please use git clone https://github.com/gpark31/CS-555-Project.git
+>>>> To download this game, please use git clone https://github.com/gpark31/CS-555-Project.git\n
 >>>> Download Unity from: https://unity3d.com/get-unity/download and launch the game. 
 
