@@ -13,9 +13,7 @@ public class Movements : MonoBehaviour
     {
         //move forward
         movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
-
+        movement.y = Input.GetAxisRaw("Vertical");    
     }
     void FixedUpdate()
     {
