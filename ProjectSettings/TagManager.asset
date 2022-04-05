@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - myCoin
+  - Enemies
+  - fish
   layers:
   - Default
   - TransparentFX
