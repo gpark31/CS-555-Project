@@ -3566,7 +3566,7 @@ GameObject:
   - component: {fileID: 1102674500}
   - component: {fileID: 1102674499}
   m_Layer: 5
-  m_Name: Image (2)
+  m_Name: heart3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4166,6 +4166,7 @@ GameObject:
   - component: {fileID: 1488382641}
   - component: {fileID: 1488382642}
   - component: {fileID: 1488382643}
+  - component: {fileID: 1488382644}
   m_Layer: 5
   m_Name: Fish
   m_TagString: fish
@@ -4330,6 +4331,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 842d424ed7922e54499ca61c1bff54ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1488382644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1488382634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf5c8c43c7bb4c70b0bbb6dd4660ad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hearts:
+  - {fileID: 2041552747}
+  - {fileID: 1743352070}
+  - {fileID: 1102674497}
+  life: 3
 --- !u!1 &1581534292
 GameObject:
   m_ObjectHideFlags: 0
@@ -4512,7 +4530,7 @@ GameObject:
   - component: {fileID: 1743352073}
   - component: {fileID: 1743352072}
   m_Layer: 5
-  m_Name: Image (1)
+  m_Name: heart2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5675,7 +5693,7 @@ GameObject:
   - component: {fileID: 2041552750}
   - component: {fileID: 2041552749}
   m_Layer: 5
-  m_Name: Image
+  m_Name: heart1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
