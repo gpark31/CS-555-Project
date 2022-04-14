@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 33586
+  controlID: 15004
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 33587
+  controlID: 15005
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 33542
+  controlID: 15006
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0a9bffff949cffffa69cffff149dffff689effffe8a1ffff20c1ffff52c5ffff1cc6ffff06c8fffff4c8ffffd4e1ffff44e3ffff20e8ffffdafaffff64fbffff284700007c470000a8470000ac4700002c4800005a720000a8720000b07200006673000098730000c0730000d87300008a740000147500004075000048750000627500000c9f0000149f0000ca9f0000fc9f000024a000003ca000006aaa00001eab00003eab000094ab00000eb8000020b8000028b8000044b80000a6b80000f0b8000000b9000022b9000040b900004ab9000062b9000056bd0000ccbd0000a0be0000f6be000096ca0000c8ca000066de000050e20000f8e2000034e3000046e300004ee300003ee4000070e4000096e400003eea00005eea0000
+      m_ExpandedIDs: d2b8ffff22b9ffff1abafffffcbaffffa4f6ffff0cf7ffffdaf9fffff4f9ffff16faffff2afaffff52faffff80faffff64fbffff508d0000a68d0000248e00000c930000b6930000de930000589a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -307,9 +307,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 265.47867, y: 210.48581, z: -366.52002}
+    m_Target: {x: 345.33493, y: 185.03316, z: -476.46738}
     speed: 2
-    m_Value: {x: 265.47867, y: 210.48581, z: -366.52002}
+    m_Value: {x: 345.33493, y: 185.03316, z: -476.46738}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -360,9 +360,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 255.7157
+    m_Target: 221.66133
     speed: 2
-    m_Value: 255.7157
+    m_Value: 221.66133
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -465,9 +465,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: da450000
-    m_LastClickedID: 17882
-    m_ExpandedIDs: 00000000c6450000c8450000ca450000cc450000ce450000d045000000ca9a3b
+    m_SelectedIDs: 5e450000
+    m_LastClickedID: 17758
+    m_ExpandedIDs: 000000004a4500004c4500004e45000050450000524500005445000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -495,7 +495,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c6450000c8450000ca450000cc450000ce450000d045000000ca9a3b
+    m_ExpandedIDs: 000000004a4500004c4500004e45000050450000524500005445000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,9 +520,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 9aea0000
-    m_LastClickedInstanceID: 60058
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 7e450000
+    m_LastClickedInstanceID: 17790
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300004e520000764900000000000072610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -539,7 +539,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -633,8 +633,8 @@ MonoBehaviour:
     m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 60058
-  m_LastVerticalScrollValue: 103.19995
+  m_LastInspectedObjectInstanceID: 17790
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
