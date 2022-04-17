@@ -4888,7 +4888,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1944898540}
+        m_TargetAssemblyTypeName: audio, Script
+        m_MethodName: ChangeVolume
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1944898537
 GameObject:
   m_ObjectHideFlags: 0
@@ -4899,6 +4911,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1944898538}
   - component: {fileID: 1944898539}
+  - component: {fileID: 1944898540}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: Untagged
@@ -5021,6 +5034,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1944898540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1944898537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1454e36437b434985a4f78b661378b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeSlider: {fileID: 1910138755}
 --- !u!1 &1945994861
 GameObject:
   m_ObjectHideFlags: 0
