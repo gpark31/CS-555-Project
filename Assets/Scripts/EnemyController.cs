@@ -17,21 +17,21 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x >= 100f && transform.position.x < 1420f &&  right == true)
+        if (transform.position.x >= 150f && transform.position.x < 1700f &&  right == true)
         {
             rb.velocity = new Vector2(speed, 0f);
         }
-        if(transform.position.x >= 1420f && right == true)
+        if(transform.position.x >= 1700f && right == true)
         {
             right = false;
             transform.Rotate(0, 180, 0);
             rb.velocity = new Vector2(-speed, 0f);
         }
-        if (transform.position.x <= 1420f && transform.position.x > 100f && right == false)
+        if (transform.position.x <= 1700f && transform.position.x > 150f && right == false)
         {
             rb.velocity = new Vector2(-speed, 0f);
         }
-        if(transform.position.x <= 100f && right == false)
+        if(transform.position.x <= 150f && right == false)
         {
             right = true;
             transform.Rotate(0, 180, 0);

@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 32651857}
   - component: {fileID: 32651856}
   - component: {fileID: 32651855}
-  - component: {fileID: 32651854}
   - component: {fileID: 32651853}
   - component: {fileID: 32651852}
   m_Layer: 5
@@ -199,22 +198,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &32651854
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 32651850}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -1.29, y: 4.2}
-  serializedVersion: 2
-  m_Radius: 36.3
 --- !u!61 &32651855
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -239,7 +222,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 110.07, y: 82.9}
+  m_Size: {x: 110.07, y: 70}
   m_EdgeRadius: 0
 --- !u!114 &32651856
 MonoBehaviour:
@@ -2664,7 +2647,6 @@ GameObject:
   - component: {fileID: 653817006}
   - component: {fileID: 653817005}
   - component: {fileID: 653817004}
-  - component: {fileID: 653817003}
   - component: {fileID: 653817002}
   - component: {fileID: 653817001}
   m_Layer: 5
@@ -2728,22 +2710,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &653817003
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653816999}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -1.29, y: 4.2}
-  serializedVersion: 2
-  m_Radius: 36.3
 --- !u!61 &653817004
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2768,7 +2734,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 110.07, y: 82.9}
+  m_Size: {x: 110, y: 60}
   m_EdgeRadius: 0
 --- !u!114 &653817005
 MonoBehaviour:
@@ -6503,9 +6469,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 10, y: 0}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 60
+  m_Radius: 50
 --- !u!114 &2139875856
 MonoBehaviour:
   m_ObjectHideFlags: 0

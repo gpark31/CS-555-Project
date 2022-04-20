@@ -697,7 +697,6 @@ GameObject:
   - component: {fileID: 155067757}
   - component: {fileID: 155067756}
   - component: {fileID: 155067755}
-  - component: {fileID: 155067754}
   - component: {fileID: 155067753}
   - component: {fileID: 155067758}
   m_Layer: 5
@@ -724,7 +723,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 40, y: -1}
   m_SizeDelta: {x: 123.2258, y: 89.847}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!50 &155067753
@@ -748,22 +747,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &155067754
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 155067751}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -20.19, y: 26.8}
-  serializedVersion: 2
-  m_Radius: 9.6
 --- !u!61 &155067755
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -788,7 +771,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 140, y: 60.839493}
+  m_Size: {x: 110, y: 60.839493}
   m_EdgeRadius: 0
 --- !u!114 &155067756
 MonoBehaviour:
@@ -4327,7 +4310,6 @@ GameObject:
   - component: {fileID: 1787139645}
   - component: {fileID: 1787139644}
   - component: {fileID: 1787139643}
-  - component: {fileID: 1787139642}
   - component: {fileID: 1787139641}
   - component: {fileID: 1787139640}
   m_Layer: 5
@@ -4391,22 +4373,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &1787139642
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1787139638}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -20.19, y: 26.8}
-  serializedVersion: 2
-  m_Radius: 9.6
 --- !u!61 &1787139643
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4431,7 +4397,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 140, y: 60.839493}
+  m_Size: {x: 110, y: 60.839493}
   m_EdgeRadius: 0
 --- !u!114 &1787139644
 MonoBehaviour:
