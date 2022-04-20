@@ -261,10 +261,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 76dfec4c53342fe45b20b394810d416b, type: 3}
-    m_FontSize: 45
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 45
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -272,7 +272,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: Thank you!
+  m_Text: Hi! Please help me find my way back home...
 --- !u!222 &14913977
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -601,8 +601,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 364.695, y: 176.06598}
-  m_SizeDelta: {x: 375.391, y: 62.387}
+  m_AnchoredPosition: {x: 369.67618, y: 176.07}
+  m_SizeDelta: {x: 392.1176, y: 62.387}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &129826456
 MonoBehaviour:
@@ -626,18 +626,21 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 76dfec4c53342fe45b20b394810d416b, type: 3}
-    m_FontSize: 30
+    m_FontSize: 27
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
-    m_MaxSize: 45
+    m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: "Use arrow keys to move and \navoid the predators."
+  m_Text: 'Use arrow keys to avoid predators.
+
+    If you collect all the food, you
+    can escape!'
 --- !u!222 &129826457
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1556,7 +1559,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &350940840
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1939,8 +1942,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5566667}
-  m_AnchoredPosition: {x: 395, y: 40}
-  m_SizeDelta: {x: 100, y: 66}
+  m_AnchoredPosition: {x: 395, y: 55.795723}
+  m_SizeDelta: {x: 100, y: 97.5914}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &512316987
 MonoBehaviour:
@@ -2536,7 +2539,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 472.222, y: -19.577}
+  m_AnchoredPosition: {x: 472.222, y: -27}
   m_SizeDelta: {x: 160, y: 103.029}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732084669
@@ -2571,10 +2574,8 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 0.7
-  m_Text: 'Hi! Nice
-
-    to meet you!'
+    m_LineSpacing: 0.5
+  m_Text: "Hi! I'm Goldie. \nNice to meet you!"
 --- !u!222 &732084670
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2961,7 +2962,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: "Hi! I'm \nGoldie!"
+  m_Text: Hi! Who are you?
 --- !u!222 &1021481877
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3631,8 +3632,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 485.16, y: 9.2559}
-  m_SizeDelta: {x: 154.23, y: 109.09}
+  m_AnchoredPosition: {x: 480.8397, y: 13.207892}
+  m_SizeDelta: {x: 169.7834, y: 116.9918}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1436492162
 MonoBehaviour:
@@ -3656,7 +3657,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 76dfec4c53342fe45b20b394810d416b, type: 3}
-    m_FontSize: 24
+    m_FontSize: 23
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3667,7 +3668,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: "To win, earn points \nby collectting\nfood by using \narrow keys. "
+  m_Text: Oh no! It's dangerous out here but I will make sure you get back home safe.
 --- !u!222 &1436492163
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3900,7 +3901,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0.7
-  m_Text: "Let me teach you \nhow to survive \nin the ocean!"
+  m_Text: "How are you doing?\nCan I help you with \nanything?"
 --- !u!222 &1554117941
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5151,7 +5152,7 @@ GameObject:
   - component: {fileID: 1944898540}
   m_Layer: 0
   m_Name: Audio Source
-  m_TagString: Untagged
+  m_TagString: music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5284,9 +5285,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   volumeSlider: {fileID: 1910138755}
-  musicID: 
-  clip: {fileID: 0}
-  source: {fileID: 0}
 --- !u!1 &1945994861
 GameObject:
   m_ObjectHideFlags: 0

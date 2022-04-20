@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ScoreScript : MonoBehaviour {
     public Text scoreText;
-    public static int scoreNum = 0;
+    public static int scoreNum;
 
     void Start()
     {
@@ -14,9 +14,13 @@ public class ScoreScript : MonoBehaviour {
     }
 
     private void OnTriggerEnter2D(Collider2D Coin) {
-        if(Coin.tag == "myCoin") {
-            scoreNum++;
+        if(scoreNum > FishLife.score)
+        {
+            scoreNum = FishLife.score;
+        }
+        if (Coin.tag == "myCoin") {
             Destroy(Coin.gameObject);
+            scoreNum++;
             scoreText.text = "Score: " + scoreNum;
         }
     }
